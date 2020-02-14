@@ -1,0 +1,32 @@
+  
+
+  /* cards */
+  .card-common {
+    box-shadow: 1px 2px 5px #999;
+    transition: all .4s;
+  }
+  
+  .card-common:hover {
+    box-shadow: 2px 3px 15px #999;
+    transform: translateY(-1px);
+  }
+  /* end of cards */
+ 
+
+  .map-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 30px;
+  }
+  
+  .map-frame {
+    border: 1px solid skyblue;
+    height: 100%;
+  }
+  
+  #map {
+    height: 100%;
+  }
